@@ -2,3 +2,23 @@
     margin: 0;
     padding: 0;
 }
+#container{
+    text-align: center;
+    margin-top: 15px;
+
+}
+#contentText{
+    margin-top: 15px;
+}
+#addButton{
+    background-color: rgb(146, 146, 68);
+    color: azure;
+    width: 120px;
+    border-radius: 10px;
+}
+#deleteButton{
+    background-color: rgb(199, 110, 110);
+    color: aliceblue;
+    border-radius: 10px;
+    width: 50px;
+}
