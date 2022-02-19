@@ -12,13 +12,13 @@
 }
 #addButton{
     background-color: rgb(146, 146, 68);
-    color: azure;
-    width: 120px;
+    color: rgb(158, 211, 211);
+    width: 150px;
     border-radius: 10px;
 }
 #deleteButton{
     background-color: rgb(199, 110, 110);
     color: aliceblue;
     border-radius: 10px;
-    width: 50px;
+    width: 60px;
 }
