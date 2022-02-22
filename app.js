@@ -10,8 +10,7 @@ added.addEventListener('click', function(){
     var numbers = [];
 
     
-    for(let i =0; i < input.value; i++ )
-    {
+    for(let i =0; i < input.value; i++ ){
         for(var j = 0; numbers.length < 6; j++){
             let number = Math.floor(Math.random() * 90)+1;
             if(numbers.includes(number)){
@@ -21,7 +20,7 @@ added.addEventListener('click', function(){
                 numbers.push(number);
             }
         }
-        let sorted = number.sort((a,b) => a-b)
+        let sorted = number.sort((a,b) => a - b)
 
         for (var k = 0; numbers.length < 7; k++){
             let number = Math.floor(Math.random() * 90)+1;
@@ -32,7 +31,7 @@ added.addEventListener('click', function(){
                 numbers.push(number);
             }
         }
-        numbers.push(Math.trunc(Math.random()*90)+1);
+        numbers.push(Math.trunc(Math.random() * 90) +1);
 
         result.innerHTML += sorted[0]+ '|' + sorted[1]+ '|' +
         sorted[2]+ '|' + sorted[3]+ '|' + sorted[4]+ '|' + sorted[5]+ '--'+
