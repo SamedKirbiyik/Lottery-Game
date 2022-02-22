@@ -2,23 +2,31 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: azure;
+}
 #container{
     text-align: center;
     margin-top: 15px;
-
+    background-color: rgb(204, 180, 152);
 }
 #contentText{
     margin-top: 15px;
+    background-color: darksalmon;
 }
-#addButton{
+#added{
     background-color: rgb(146, 146, 68);
     color: rgb(158, 211, 211);
     width: 150px;
     border-radius: 10px;
 }
-#deleteButton{
+#deleted{
     background-color: rgb(199, 110, 110);
     color: aliceblue;
     border-radius: 10px;
     width: 60px;
+}
+#result{
+    background-color: rgb(179, 155, 124);
+    color:rgb(179, 155, 124);
 }
